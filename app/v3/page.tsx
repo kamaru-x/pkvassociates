@@ -44,7 +44,7 @@ const Page = () => {
                             Sass Your Stress, Before It Stuffs !
                         </p>
                         <p className={`${pacifico.className} text-green-700 font-bold text-4xl md:text-7xl pb-24`}>
-                            Together, Let's Spin the Globe !
+                            Together, Let&apos;s Spin the Globe !
                         </p>
                     </section>
 
