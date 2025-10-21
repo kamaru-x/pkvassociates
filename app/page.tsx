@@ -3,11 +3,15 @@ import React from 'react'
 const page = () => {
     return (
         <>
-            <div className=''>
+            <div className='relative'>
+
+                <div className='absolute top-5 lg:top-10 right-5 lg:right-5'>
+                    <a href="https://wa.me/+919446919703" className='px-5 py-2 lg:py-3 lg:px-8 lg:text-lg font-bold text-pink-900 bg-white lg:text-white lg:bg-pink-900 rounded-3xl'>Contact</a>
+                </div>
 
                 <div className='grid grid-cols-1 lg:grid-cols-2'>
                     <div className='p-5 lg:p-10 bg-pink-900 rounded-br-full'>
-                        <p className='text-white font-bold text-xl lg:text-2xl'>COMPATRIOT CONSULTANTS</p>
+                        <p className='text-white font-bold text-xl lg:text-2xl'>PKV Associates</p>
                         <img src="/ganesh.png" alt="" className='mt-10' />
                     </div>
                     <div className='flex justify-center items-center text-center'>
