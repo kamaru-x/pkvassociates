@@ -5,13 +5,16 @@ const page = () => {
         <>
             <div className='relative'>
 
-                <div className='absolute top-5 lg:top-10 right-5 lg:right-5'>
-                    <a href="https://wa.me/+919446919703" className='px-5 py-2 lg:py-3 lg:px-8 lg:text-lg font-bold text-pink-900 bg-white lg:text-white lg:bg-pink-900 rounded-3xl'>Contact</a>
+                <div className='absolute top-5 lg:top-10 right-5 lg:right-5 hidden lg:block'>
+                    <a href="https://wa.me/+919446439703" className='px-5 py-2 lg:py-3 lg:px-8 lg:text-lg font-bold text-pink-900 bg-white lg:text-white lg:bg-pink-900 rounded-3xl'>Contact</a>
                 </div>
 
                 <div className='grid grid-cols-1 lg:grid-cols-2'>
                     <div className='p-5 lg:p-10 bg-pink-900 rounded-br-full'>
-                        <p className='text-white font-bold text-xl lg:text-2xl'>PKV Associates</p>
+                        <div>
+                            <p className='text-white font-bold lg:text-2xl mb-5'>PKV Associates | Compatriot Consultants.</p>
+                            <a href='https://wa.me/+919446439703' className='text-white font-bold lg:text-xl mt-5'>+91 9446 439 703</a>
+                        </div>
                         <img src="/ganesh.png" alt="" className='mt-10' />
                     </div>
                     <div className='flex justify-center items-center text-center'>
@@ -44,6 +47,7 @@ const page = () => {
                 <div className='p-10'>
                     <p className='text-pink-900 font-bold text-xl text-center lg:text-3xl'>GST or Income Tax, You Cannot Avoid Either; So Be Worry Free At Least, Entrust on Us</p>
                     <p className='text-center mt-10 text-xl lg:text-2xl'>Tax called by different names and seen in multiple forms is obviously a global phenomenon, and Entrepreneurs like you obviously should deal with it in the most efficient manner. Managing Accounts and tax should never harm your valuable time to be spend for growing business and nuturing family.</p>
+                    <p className='text-pink-900 mt-10 lg:mt-24 font-bold text-3xl lg:text-7xl text-center'>The Tax People, The Tour People!</p>
                 </div>
 
                 <div className='p-5 lg:p-10'>
@@ -54,8 +58,12 @@ const page = () => {
                                 <p className='text-white font-bold text-lg lg:text-2xl'>Praveen Krishnan Venkitachalam</p>
                             </div>
                             <div>
+                                <p className='text-white text-lg lg:text-xl mt-5'>Senior Partner :</p>
+                                <p className='text-white font-bold text-lg lg:text-2xl'>Adv. Dinesh AS</p>
+                            </div>
+                            <div>
                                 <p className='text-white text-lg lg:text-xl mt-5'>Contact :</p>
-                                <p className='text-white font-bold text-lg lg:text-xl'>Phone: + 91 9446 919 703 <br /> Email: pkv@pkvassociates.co.in</p>
+                                <p className='text-white font-bold text-lg lg:text-xl'>Phone: + 91 9446 439 703 <br /> Email: pkv@pkvassociates.co.in</p>
                             </div>
                             <div>
                                 <p className='text-white text-lg lg:text-xl mt-5'>Address :</p>
