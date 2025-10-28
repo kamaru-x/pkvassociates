@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "PKV Associates",
   description: "PKV Associates",
+  icons: {
+    icon: "/fav.jpg",
+  },
 };
 
 export default function RootLayout({
